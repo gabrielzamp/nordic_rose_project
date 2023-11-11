@@ -9,6 +9,9 @@
 
 </head>
 <body class="">
+
+    <!-- Início do header/menu -->
+
     <header class="flex justify-between pt-4 pb-2 px-8">
 
         <nav class="flex justify-between w-full">
@@ -26,7 +29,6 @@
 
                 <div class="flex gap-6">
                     <a class="text-xl text-center font-serif py-2 hidden lg:block" href="#">Blog</a>
-
                     <a class="text-xl text-center font-serif py-2 hidden lg:block" href="#">About</a>
                     <a class="text-xl text-center font-serif py-2 hidden lg:block" href="#">Links</a>
                     <a class="text-xl text-center font-serif py-2 hidden lg:block" href="#">Projects</a>
@@ -35,27 +37,36 @@
         </nav>
 
     </header>
-    
+
+    <!-- Final do header/menu -->
+
     <hr class="h-0.5 mb-4 bg-gray-200 border-0">
 
     <article class="grid grid-cols-1 items-start">
 
-        <main class="flex flex-col items-center text-center mb-2 ">
+    <!-- Capa/abertura do artigo -->
 
-            <h1 class="font-serif w-10/12 lg:w-10/12 mt-12 font-bold text-4xl md:text-4xl lg:text-5xl text-center px-2 ">
+        <main class="flex flex-col items-center text-center mb-2">
+
+            <h1 class="font-serif w-10/12 lg:w-7/12 mt-12 font-bold text-4xl md:text-4xl lg:text-5xl text-center">
             A few words about this blog platform, Ghost, and how this site was made
             </h1>
 
-            <p class="font-mono text-lg mt-7 px-7 md:w-7/12">
+            <p class="font-mono text-lg mt-7 px-7 md:w-7/12 lg:w-6/12">
                 Why Ghost (& Figma) instead of Medium, WordPress or other options?</p>
 
             <img class="w-full mt-10" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/image-2-1697030476.jpg" alt="">
 
         </main>
 
-        <hr class="h-0.5 mt-5 mx-auto bg-gray-300 border-0 dark:bg-gray-700 w-10/12 self-center">
+    <!-- Final da capa/abertura do artigo -->
 
-        <div class="flex w-10/12 justify-left pt-5 m-auto gap-3 items-center">
+    <!-- Card do autor e redes sociais -->
+
+
+        <hr class="h-0.5 mt-5 mx-auto bg-gray-300 border-0 dark:bg-gray-700 w-10/12 lg:w-7/12 self-center">
+
+        <div class="lg:hidden flex w-10/12 justify-left pt-5 m-auto gap-3 items-center">
 
             <img class="w-2/12" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/mask-group-1697727559.jpg" alt="">
             <p></p>
@@ -72,7 +83,9 @@
             </div>
         </div>
 
-        <div class="flex w-10/12 border border-gray-200 h-16 m-auto rounded mt-7 shadow-md items-center justify-center">
+    <!-- Redes sociais -->
+
+        <div class="lg:hidden flex w-10/12 border border-gray-200 h-16 m-auto rounded mt-7 shadow-md items-center justify-center">
 
             <div class="flex justify-center items-center border-r h-full w-full">
                 <img class="" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/facebook-1-1697743664.jpg" alt="Facebook logo">
@@ -87,35 +100,69 @@
             </div>
         </div>
 
-        <p class="m-auto font-serif w-10/12 text-lg mt-7 mb-10 text-gray-800">
+        <div class="hidden lg:flex w-7/12 m-auto mb-3">
+            <div class="flex w-full justify-left pt-5 m-auto gap-3 items-center">
+                <img class="w-1/12" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/mask-group-1697727559.jpg" alt="">
+                <p></p>
+                <div>
+                    <p class="uppercase text-sm font-bold">
+                        Mika Matikainen
+                    </p>
+            
+                    <div>
+                        <p class="text-sm text-gray-700">
+                            Apr 15, 2020 · 4 min read</p>
+                    </div>
+                </div>
+            </div>
+            
+                <!-- Redes sociais -->
+            <div class="hidden lg:flex w-10/12 lg:w-2/12 border border-gray-200 h-8 m-auto rounded mt-7 shadow-md items-center justify-center">
+                <div class="flex justify-center items-center border-r h-full w-full">
+                    <img class="w-[35%]" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/facebook-1-1697743664.jpg" alt="Facebook logo">
+                </div>
+                <div class="flex justify-center items-center border-r h-full w-full">
+                    <img class="w-[35%]" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/vector-1697743779.jpg" alt="twitter logo">
+                </div>
+            </div>
+        </div>
+
+        
+
+    <!-- Início do texto -->
+
+        <p class="m-auto font-serif w-10/12 lg:w-7/12 text-lg mt-7 mb-10 text-gray-800">
             This lovely web is full of everything which is created I don't know what in mind, considering that sometimes totally bonkers stuff might be highly relevant if it has the right kind of thinking behind it. 
         </p>
 
-        <h2 class="m-auto w-10/12 text-3xl font-bold">
+        <h2 class="m-auto w-10/12 lg:w-7/12 text-3xl font-bold">
             Next on the pipeline</h2>
 
-        <p class="m-auto font-serif w-10/12 text-lg mt-7 mb-10">
+        <p class="m-auto font-serif w-10/12 text-lg mt-7 mb-10 lg:w-7/12">
             This lovely web is full of everything which is created I don't know what in mind, considering that sometimes totally bonkers stuff might be highly relevant if it has the right kind of thinking behind it. 
         </p>
 
-        <img class="w-full mt-10" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/rectangle-8-1697035699.jpg" alt="">
+        <img class="w-full mt-10 lg:m-auto lg:w-9/12" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/rectangle-8-1697035699.jpg" alt="">
 
-        <p class="w-10/12 text-center text-sm m-auto pt-3 pb-5">
+        <p class="w-10/12 lg:w-7/12 text-center text-sm m-auto pt-3 pb-5 lg:px-24">
             Image caption centered this way and I’ll make this a bit longer to indicate the amount of line-height. 
         </p>
 
-        <p class="m-auto font-serif w-10/12 text-lg mt-7 mb-10 text-gray-800">
+        <p class="m-auto font-serif w-10/12 lg:w-7/12 text-lg mt-7 mb-10 text-gray-800">
             This lovely web is full of everything which is created I don't know what in mind, considering that sometimes totally bonkers stuff might be highly relevant if it has the right kind of thinking behind it. 
         </p>
-        <p class="m-auto font-serif w-10/12 text-lg pb-5 text-gray-800">
+        <p class="m-auto font-serif w-10/12 lg:w-7/12 text-lg pb-5 text-gray-800">
             Luckily, in the middle of all that, there are some pockets of content that offer delightfully valuable contrast to cursory wisdom in some of the established channels.
         </p>
+        
+        
+        <!-- Compartilhamento -->
 
-        <p class="m-auto w-10/12 pb-1 text-gray-800">
+        <p class="m-auto w-10/12 pb-1 lg:hidden text-gray-800">
             Share:
         </p>
 
-        <div class="flex w-10/12 border border-gray-200 h-16 m-auto rounded mb-4 shadow-md items-center justify-center">
+        <div class="flex w-10/12 lg:hidden border border-gray-200 h-16 m-auto rounded mb-4 shadow-md items-center justify-center">
 
             <div class="flex justify-center items-center border-r h-full w-full">
                 <img class="" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/facebook-1-1697743664.jpg" alt="Facebook logo">
@@ -131,25 +178,133 @@
 
         </div>
 
-        <p class="m-auto w-10/12 pb-1 text-gray-800 text-sm">
+        <div class="lg:flex w-10/12 lg:w-7/12 hidden border border-gray-200 h-16 m-auto rounded mb-4 shadow-md items-center justify-center">
+
+            <div class="flex justify-center items-center border-r h-full w-full gap-4 text-sm">
+                <img class="" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/facebook-1-1697743664.jpg" alt="Facebook logo">
+                <p>Share on Facebook</p>
+            </div>
+    
+
+    
+            <div class="flex justify-center items-center border-r h-full w-full gap-4 text-sm">
+                <img class="" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/vector-1697743779.jpg" alt="twitter logo">
+                <p>Share on Twitter</p>
+
+            </div>
+
+        </div>
+
+
+
+        <p class="m-auto w-10/12 lg:w-7/12 pb-1 text-gray-800 text-sm">
             Tags: <span class="underline">product design</span>, <span class="underline">culture</span>
         </p>
 
-        <hr class="h-0.5 mt-5 mx-auto border-dotted border-gray-400 w-10/12 self-center">
+        <hr class="h-0.5 mt-5 mx-auto border-dotted border-gray-400 w-10/12 lg:w-7/12 self-center">
 
 
+        <!-- Card do autor -->
 
-        <div class="flex w-10/12 justify-left pt-5 m-auto items-center">
+        <div class="flex w-10/12 lg:w-7/12 justify-left pt-5 m-auto items-center">
 
-            <div class="mb-5">
+            <div class="mb-5 gap-3">
                 <img class="float-left my-2 mr-4" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/mask-group-1697727559.jpg" alt="avatar of the author">
                 <div class="font-serif text-base text-left">
-                    <p>
+                    <p class="leading-7">
                         <span class="font-sans font-bold uppercase tracking-wider">Mika Matikainen</span> is a Design Founder & Advisor, Berlin School of Creative Leadership Executive MBA participant, Zippie advisor, Wolt co-founder, and Nordic Rose stakeholder.
                     </p>
                 </div>
         </div>
+    </div>
+
+    <div class="flex items-center justify-center w-full pb-5 pt-2">
+
+        <div class="absolute w-full h-0.5 bg-gray-300 border-0 dark:bg-gray-700"></div>
+      
+        <img class="z-10" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/group-10-1697817456.jpg" alt="">
+    
+    </div>
+      
+      <div class="flex flex-col justify-center items-center w-10/12 mx-auto">
+        <h2 class="font-serif text-center font-bold text-4xl pt-10 mb-8">
+            What to read next
+        </h2>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 md:gap-6  justify-evenly px-2 m-auto text-center w-11/12 lg:w-11/12 items-start pb-20 text-2xl lg:text-base">
+            <div class='w-full'>
+                <img class="w-full" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/rectangle-13-1697030808.jpg" alt="">
+                <h3 class="mt-4 mb-10 mx-9 lg:mx-4 text-center h-3/4">
+                    Granny gives everyone the finger, and other tips from OFFF Barcelona
+                </h3>
+            </div>
+            <div class='w-full'>
+                <img class="w-full" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/rectangle-13-1-1697030846.jpg" alt="">
+                <h3 class="mt-4 mb-10 mx-9 lg:mx-4 text-center h-3/4">
+                    Hello world, or, in other words, why this blog exists</h3>
+            </div>
+            <div class='w-full'>
+                <img class="w-full" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/rectangle-12-1697030733.jpg" alt="">
+                <h3 class="mt-4 mb-10 mx-9 lg:mx-4 text-center h-3/4">
+                    Here are some things you should know regarding how we work </h3>
+            </div>
+            <div class='w-full'>
+                <img class="w-full" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/rectangle-39-1697035508.jpg" alt="">
+                <h3 class="mt-4 mb-10 mx-9 lg:mx-4 text-center h-3/4">
+                    Updating list of 50+ sources on distributed teams, remote work, and how to make it all work better</h3>
+            </div>
+            <div class='w-full'>
+                <img class="w-full" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/rectangle-37-1697035599.jpg" alt="">
+                <h3 class="mt-4 mb-10 mx-9 lg:mx-4 text-center h-3/4">
+                    A few words about this blog platform, Ghost, and how this site was made </h3>
+            </div>
+            <div class='w-full'>
+                <img class="w-full" src="https://conasems-ava-prod.s3.sa-east-1.amazonaws.com/institucional/orientacoes/rectangle-18-1697031043.jpg" alt="">
+                <h3 class="mt-4 mb-10 mx-9 lg:mx-4 text-center h-3/4">
+                    How modern remote working tools get along with Old School Cowboy's methods</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full lg:w-7/12 lg:mx-auto h-2 bg-gray-300 border-0 dark:bg-gray-900 mb-12 lg:mb-0"></div>
+    
+    <div class="flex flex-col items-center justify bg-center w-10/12 lg:w-7/12 mx-auto text-center lg:border lg:border-black lg:py-14 lg:px-14 lg:mb-20">
+        <p class="font-serif text-3xl font-bold mb-4">Sign up for the newsletter</h3>
+
+        <p class="text-lg mb-7 text-gray-600">If you want relevant updates occasionally, sign up for the private newsletter. Your email is never shared. </p>
+
+        <div class="w-full mb-10 lg:mb-0">
+            <form class="border-2 border-gray-950 h-12 flex items-center" action="process_form.php" method="post">
+
+                <input type="email" id="email" name="email" placeholder="Enter your email..." class="flex-grow px-4 text-black" required>
+
+                <button type="submit" class="bg-black text-white px-4 h-full">SIGN UP</button>
+            </form>
+        </div>
+    
+    </div>
+
+    <div class="w-full h-0.5 bg-gray-300 border-0 dark:bg-gray-900 mb-12 lg:hidden"></div>
+
 
     </article>
+    <footer class="flex flex-col bg-gray-950 text-white text-center pt-28 px-11 items-center justify-center">
 
+        <img class="w-10/12 md:w-4/12 lg:w-3/12 mb-8"
+         src="../img/nordic-rose-logo-white.svg" alt="">
+
+        <p class="text-xs mb-10 md:w-6/12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus. </p>
+
+        <div class="flex gap-8 py-6 text-xs justify-center underline">
+            <a href="">Twitter</a>
+            <a href="">LinkedIn</a>
+            <a href="">RSS</a>
+        </div>
+
+        <div class="py-6 text-xs justify-center mb-14">
+            <p>© 2012–2020 Nordic Rose Co.</p>
+            <p>All rights reserved. </p>
+        </div>
+
+    </footer>
 </body>
